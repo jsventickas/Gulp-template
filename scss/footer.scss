@@ -1,0 +1,46 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 120px;
+  background-color: #f8f9fa;
+
+  .first a {
+    cursor: pointer;
+    color: #007bff;
+  }
+  .first .copyright {
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: grey;
+  }
+  .dot {
+    height: 4px;
+    width: 4px;
+    background-color: #007bff;
+    border-radius: 100%;
+    margin: 0 10px 3px 10px;
+    display: inline-block;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: row;
+    .gg-facebook {
+      cursor: pointer;
+      margin-right: 10px;
+      color: #057eff;
+    }
+    .gg-instagram {
+      cursor: pointer;
+      margin-right: 10px;
+      color: #057eff;
+    }
+    .gg-twitter {
+      cursor: pointer;
+      margin-right: 10px;
+      color: #057eff;
+    }
+  }
+}
