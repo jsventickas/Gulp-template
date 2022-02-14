@@ -17,10 +17,11 @@
     justify-content: center;
     flex-direction: column;
     height: auto;
+
     img {
       order: -1;
       max-width: 100%;
-      max-height: auto;
+      height: auto;
       object-fit: contain;
       // .section-3 .img {
       //   max-width: 375px;
