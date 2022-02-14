@@ -22,6 +22,12 @@
       max-width: 100%;
       max-height: auto;
       object-fit: contain;
+      // .section-3 .img {
+      //   max-width: 375px;
+      //   overflow: hidden;
+      // }
+      // max-width: 100%; /* Maybe optional. See note below */
+      // transform: scale(1);
       .text {
         display: flex;
         justify-content: left;
