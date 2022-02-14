@@ -1,4 +1,8 @@
 @media only screen and (max-width: 740px) {
+  header {
+    width: 100%;
+    position: fixed;
+  }
   .section-1 {
     .sign-up,
     .emails {
