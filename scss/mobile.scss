@@ -21,6 +21,7 @@
       order: -1;
       max-width: 100%;
       max-height: auto;
+      object-fit: contain;
       .text {
         display: flex;
         justify-content: left;
@@ -45,6 +46,7 @@
       order: -1;
       max-width: 100%;
       height: auto;
+      object-fit: contain;
       .text {
         display: flex;
         justify-content: left;
@@ -65,10 +67,12 @@
     justify-content: center;
     flex-direction: column;
     height: auto;
+
     img {
       order: -1;
       max-width: 100%;
       height: auto;
+      object-fit: contain;
       .text {
         display: flex;
         justify-content: left;
